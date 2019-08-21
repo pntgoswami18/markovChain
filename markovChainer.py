@@ -64,6 +64,8 @@ class MarkovModel:
 
 
 mm = MarkovModel()
+
+#  TO-DO: read text from a file
 mm.learn("It's worth noting that this wasn't obvious to at least 133 people who took time to up vote (myself included) who didn't understand this.")
 print("~~~~~~\nnow generating\n~~~~~~~")
 generatedIterable = mm.generate()
